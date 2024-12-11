@@ -1,0 +1,22 @@
+<div class="table-container">
+  <h2>All Updates</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Username</th>
+        <th>Project Name</th>
+        <th>Username</th>
+        <th>Update</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of updateData">
+        <td>{{ data.userName }}</td>
+        <td>{{ data.projectName }}</td>
+        <td>{{ data.weekEndingDate }}</td>
+        <td>{{ data.update }}</td>
+        
+      </tr>
+    </tbody>
+  </table>
+</div>

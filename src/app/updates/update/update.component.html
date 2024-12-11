@@ -1,0 +1,60 @@
+<div class="form-container">
+    <form (ngSubmit)="onSubmit()">
+      <!-- Project Name -->
+      <div class="form-group">
+        <label for="projectName">Project Name</label>
+        <input
+          type="text"
+          id="projectName"
+          name="projectName"
+          [(ngModel)]="formData.projectName"
+          required
+          placeholder="Enter Project Name"
+        />
+      </div>
+  
+      <!-- Update -->
+      <div class="form-group">
+        <label for="update">Update</label>
+        <textarea
+          id="update"
+          name="update"
+          [(ngModel)]="formData.update"
+          rows="4"
+          required
+          placeholder="Enter your update"
+        ></textarea>
+      </div>
+  
+      <!-- Weekending Date -->
+      <div class="form-group">
+        <label for="weekEndingDate">Week Ending Date</label>
+        <input
+          type="date"
+          id="weekEndingDate"
+          name="weekEndingDate"
+          [(ngModel)]="formData.weekEndingDate"
+          required
+        />
+      </div>
+  
+      <!-- Username -->
+      <div class="form-group">
+        <label for="userName">User Name</label>
+        <input
+          type="text"
+          id="userName"
+          name="userName"
+          [(ngModel)]="formData.userName"
+          required
+          placeholder="Enter your username"
+        />
+      </div>
+  
+      <!-- Submit Button -->
+      <div class="form-group">
+        <button type="submit" class="submit-button">Submit</button>
+      </div>
+    </form>
+  </div>
+  

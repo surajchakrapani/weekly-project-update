@@ -1,0 +1,15 @@
+[
+    {
+      "projectName": "Project A",
+      "update": "Completed Phase 1",
+      "weekEndingDate": "2024-12-01",
+      "userName": "Rahul"
+    },
+    {
+      "projectName": "Project B",
+      "update": "Started Phase 2",
+      "weekEndingDate": "2024-12-02",
+      "userName": "Suraj"
+    }
+  ]
+  
